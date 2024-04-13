@@ -9,11 +9,6 @@ Mostre a respectiva mensagem após a validação dos valores. */
 export function problem(lines) {
   const [A, B, C, D] = lines[0].split(' ').map(Number);
 
-  // B > C
-  // D > A
-  // C + D > A + B
-  // C & D >= 0
-
   if (
     (B > C) &
     (D > A) &
