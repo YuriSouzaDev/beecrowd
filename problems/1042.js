@@ -7,10 +7,12 @@ Saída
 Imprima a saída conforme foi especificado. */
 
 export function problem(lines) {
-  const newArr = lines[0].split(' ').map(Number);
-  let sortedArr = [...newArr].sort((a, b) => a - b);
+  const [A, B, C] = lines[0].split(' ').map(Number);
+  const newArr = [A, B, C];
+  const sortedArr = newArr.sort(function (a, b) {
+    return a - b;
+  });
   sortedArr.forEach((n) => console.log(n));
-  console.log('\n');
   console.log(`\n${A}`);
   console.log(B);
   console.log(C);
