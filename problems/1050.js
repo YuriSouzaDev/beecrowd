@@ -26,6 +26,6 @@ export function problem(lines) {
   if (DDDList[DDD]) {
     console.log(DDDList[DDD]);
   } else {
-    console.log('DDD não cadastrado');
+    console.log('DDD nao cadastrado');
   }
 }
