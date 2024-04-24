@@ -13,7 +13,7 @@ export function problem(lines) {
     {
       vertebrado: {
         ave: {
-          carnivoro: 'águia',
+          carnivoro: 'aguia',
           onivoro: 'pomba',
         },
         mamifero: {
